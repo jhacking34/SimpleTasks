@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		37821DAB2822DE4F00AAB15C /* SimpleTasksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37821DAA2822DE4F00AAB15C /* SimpleTasksApp.swift */; };
-		37821DAD2822DE4F00AAB15C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37821DAC2822DE4F00AAB15C /* ContentView.swift */; };
+		37821DAD2822DE4F00AAB15C /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37821DAC2822DE4F00AAB15C /* TasksView.swift */; };
 		37821DAF2822DE5200AAB15C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37821DAE2822DE5200AAB15C /* Assets.xcassets */; };
 		37821DB22822DE5200AAB15C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37821DB12822DE5200AAB15C /* Preview Assets.xcassets */; };
+		37821DB92822E56000AAB15C /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37821DB82822E56000AAB15C /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		37821DA72822DE4F00AAB15C /* SimpleTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37821DAA2822DE4F00AAB15C /* SimpleTasksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTasksApp.swift; sourceTree = "<group>"; };
-		37821DAC2822DE4F00AAB15C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		37821DAC2822DE4F00AAB15C /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
 		37821DAE2822DE5200AAB15C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37821DB12822DE5200AAB15C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		37821DB82822E56000AAB15C /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				37821DAA2822DE4F00AAB15C /* SimpleTasksApp.swift */,
-				37821DAC2822DE4F00AAB15C /* ContentView.swift */,
+				37821DAC2822DE4F00AAB15C /* TasksView.swift */,
+				37821DB82822E56000AAB15C /* ToDoItem.swift */,
 				37821DAE2822DE5200AAB15C /* Assets.xcassets */,
 				37821DB02822DE5200AAB15C /* Preview Content */,
 			);
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37821DAD2822DE4F00AAB15C /* ContentView.swift in Sources */,
+				37821DAD2822DE4F00AAB15C /* TasksView.swift in Sources */,
 				37821DAB2822DE4F00AAB15C /* SimpleTasksApp.swift in Sources */,
+				37821DB92822E56000AAB15C /* ToDoItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
